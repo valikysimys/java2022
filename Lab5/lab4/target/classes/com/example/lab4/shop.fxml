@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="388.0" prefWidth="556.0" style="-fx-background-color: #D8E4BE;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab4.HelloController">
+   <children>
+      <Line endX="309.0" layoutX="140.0" layoutY="90.0" startX="-105.0" stroke="#718a60" strokeWidth="3.0">
+         <effect>
+            <Shadow blurType="GAUSSIAN" height="8.79" radius="2.4299999999999997" width="2.93">
+               <color>
+                  <Color red="0.23305921256542206" green="0.34210526943206787" blue="0.21381579339504242" />
+               </color>
+            </Shadow>
+         </effect>
+      </Line>
+      <Label layoutX="38.0" layoutY="14.0" prefHeight="29.0" prefWidth="247.0" text="Оформлення замовлення" textFill="#087902">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="83.0" layoutY="61.0" text="Контактні дані">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="138.0" text="Прізвище та ім'я">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="178.0" text="Місто">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="216.0" text="Телефон">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="257.0" text="E-mail">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="name" layoutX="146.0" layoutY="134.0" onAction="#name" />
+      <TextField fx:id="number" layoutX="146.0" layoutY="211.0" onAction="#number" />
+      <TextField fx:id="email" layoutX="147.0" layoutY="252.0" onAction="#email" />
+      <CheckBox fx:id="radio" layoutX="38.0" layoutY="310.0" mnemonicParsing="false" onAction="#radio" text="Я хочу отримувати інтернет-розсилку від магазину To4ka">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font></CheckBox>
+      <Button fx:id="okButton" layoutX="433.0" layoutY="336.0" mnemonicParsing="false" onAction="#okButton" prefHeight="38.0" prefWidth="107.0" text="OK" />
+      <ImageView fitHeight="72.0" fitWidth="86.0" layoutX="445.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image_2022-11-03_23-02-06.png" />
+         </image>
+      </ImageView>
+      <MenuButton fx:id="city" layoutX="146.0" layoutY="174.0" mnemonicParsing="false" onAction="#city" prefHeight="25.0" prefWidth="149.0" text="Обрати місто">
+        <items>
+            <MenuItem fx:id="kiyv" mnemonicParsing="false" onAction="#kiyv" text="Київ" />
+            <MenuItem fx:id="lviv" mnemonicParsing="false" onAction="#lviv" text="Львів" />
+            <MenuItem fx:id="myk" mnemonicParsing="false" onAction="#myk" text="Миколаїв" />
+            <MenuItem fx:id="odesa" mnemonicParsing="false" onAction="#odesa" text="Одеса" />
+            <MenuItem mnemonicParsing="false" onAction="#xar" text="Харків" fx:id="xar" />
+            <MenuItem fx:id="cher" mnemonicParsing="false" onAction="#cher" text="Чернігів" />
+            <MenuItem fx:id="ter" mnemonicParsing="false" onAction="#ter" text="Тернопіль" />
+            <MenuItem fx:id="che" mnemonicParsing="false" onAction="#che" text="Чернівці" />
+            <MenuItem mnemonicParsing="false" onAction="#xer" text="Херсон" fx:id="xer" />
+            <MenuItem fx:id="cherk" mnemonicParsing="false" onAction="#cherk" text="Черкаси" />
+        </items>
+      </MenuButton>
+   </children>
+</AnchorPane>
