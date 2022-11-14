@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="392.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab3.Plot">
+   <children>
+      <Line endX="147.0" layoutX="199.0" layoutY="332.0" startX="-147.0" />
+      <Line endX="-51.5" endY="-124.0" layoutX="103.0" layoutY="199.0" startX="-51.5" startY="132.5" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="29.0" layoutX="51.0" layoutY="303.0" stroke="BLACK" strokeType="INSIDE" width="59.0">
+         <fill>
+            <LinearGradient cycleMethod="REFLECT" endX="0.8530805687203792" endY="0.8341232227488151" startX="0.8104265402843601" startY="0.6777251184834123">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.12999999523162842" green="0.8497841954231262" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.01532567049808429">
+                     <color>
+                        <Color red="0.12999999523162842" green="0.8497841954231262" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.7913668751716614" blue="0.8799999952316284" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1fff47" height="119.0" layoutX="110.0" layoutY="213.0" stroke="BLACK" strokeType="INSIDE" width="59.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f5e" height="166.0" layoutX="169.0" layoutY="166.0" stroke="BLACK" strokeType="INSIDE" width="59.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff621f" height="193.0" layoutX="228.0" layoutY="139.0" stroke="BLACK" strokeType="INSIDE" width="59.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="240.0" layoutX="287.0" layoutY="92.0" stroke="BLACK" strokeType="INSIDE" width="59.0" />
+      <Label layoutX="51.0" layoutY="342.0" text="Python" textFill="#1a00ff">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="297.0" layoutY="342.0" text="Java" textFill="#1a00ff">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="247.0" layoutY="342.0" text="C#" textFill="#1a00ff">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="180.0" layoutY="342.0" text="C++" textFill="#1a00ff">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="121.0" layoutY="342.0" text="PHP" textFill="#1a00ff">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="290.0" text="1" textFill="#1a00ff">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="199.0" text="5" textFill="#1a00ff">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="153.0" text="7" textFill="#1a00ff">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="126.0" text="8" textFill="#1a00ff">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="79.0" text="10" textFill="#1a00ff">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="149.0" layoutY="39.0" text="PP-42 Stats" textFill="#2b06ff">
+         <font>
+            <Font name="Candara Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Line endX="135.0" endY="-2.0" layoutX="152.0" layoutY="94.0" startX="-100.0" />
+      <Line endX="70.0" layoutX="158.0" layoutY="139.0" startX="-106.0" />
+      <Line endX="88.0" endY="-1.0" layoutX="81.0" layoutY="167.0" startX="-30.0" />
+      <Line endX="30.0" layoutX="80.0" layoutY="213.0" startX="-28.0" />
+   </children>
+</AnchorPane>
